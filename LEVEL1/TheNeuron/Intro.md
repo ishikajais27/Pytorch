@@ -13,3 +13,8 @@ The neuron:
 4. Makes decision: If >5 → "Go to beach!"
 
 Output = Activation( (input₁ × weight₁) + (input₂ × weight₂) + ... + bias )
+
+Hidden layers are your design choice — no strict rule.
+Start with a small number of neurons (like 2-10) for tiny problems.
+For complex tasks, increase neurons or layers.
+More neurons → more capacity but can overfit if too many.
