@@ -1,0 +1,36 @@
+INPUT (X)
+|
+v
+┌──────────────────┐
+│  MODEL (forward) │
+└──────────────────┘
+|
+v
+PREDICTIONS (ŷ)
+|
+v
+┌──────────────────┐
+│   LOSS FUNCTION  │
+└──────────────────┘
+|
+v
+LOSS VALUE
+|
+v
+┌──────────────────┐
+│ BACKWARD PASS    │  ← computes gradients
+└──────────────────┘
+|
+v
+GRADIENTS (dLoss/dW)
+|
+v
+┌──────────────────┐
+│ OPTIMIZER STEP   │  ← weight update
+└──────────────────┘
+|
+v
+UPDATED WEIGHTS
+|
+v
+NEXT EPOCH
